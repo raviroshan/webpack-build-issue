@@ -1,0 +1,18 @@
+// Project B - Index SCSS
+
+// Import Project A SCSS [Common Varibles, Classes, Styling etc]
+@import "../../../../Project_A/assets/stylesheets/index";
+
+// Project B specific Styling below
+footer {
+    min-height: 50px;
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../images/footer-bg.jpg");
+}

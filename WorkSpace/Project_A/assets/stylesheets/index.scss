@@ -1,0 +1,29 @@
+// Project A - Index SCSS
+
+// Import Commong Variables, Styling etc
+@import "vars.scss";
+
+.container {
+    background-color: $container-bg-color;
+    text-align: center;
+
+    .title {
+        font-style: bold;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .sub-title {
+        font-style: italic;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .content-wrapper {
+        min-height: 300px;
+        padding: 20px 40px;
+        color: $content-text-color;
+        // background-image: url("../images/content-bg.jpg");
+    }
+}
