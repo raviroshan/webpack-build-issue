@@ -26,7 +26,7 @@ module.exports = {
             // Sass
             {
                 test: /\.scss$/,
-                loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!sass-loader?sourceMap')
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!resolve-url-loader!sass-loader?sourceMap')
             },
             // Images
             {
